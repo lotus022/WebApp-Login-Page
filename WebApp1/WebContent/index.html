@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1><font color="red">User Registration</font></h1>
+<form method="post" action="FirstServlet" >
+
+<label>First Name</label>
+<input type="text" name="fname" id="fname" required/><br><br>
+<label>Last Name</label>
+<input type="text" name="lname" id="lname"/><br><br>
+<label>Email </label>
+<input type="email" id="email" name="email" required/><br><br>
+<label>Gender </label>
+<input type="radio" name="gender" id="gender" value="Male" required/>Male
+<input type="radio" name="gender" id="gender" value="Femail" required/>Female
+<br><br>
+		
+<label>Country</label><select id="country" name="country">
+		<option>Select Country</option>
+		<option id="ind">Ind</option>
+		<option id="ind">US</option>
+		<option id="ind">AUS</option>
+		</select> 
+<br><br>
+<label>Password </label>	
+<input type="password" id="PassCode" name="PassCode" required/>
+<br><br>
+<input type="submit" value="Submit" id="submit"/>
+</form>
+
+
+</body>
+</html>
